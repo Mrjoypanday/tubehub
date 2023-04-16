@@ -54,12 +54,12 @@ const Header = () => {
                 )}
                 <Link to="/" className="flex h-5 items-center">
                     <h3
-                        className="h-full hidden dark:md:block">TubeHub
+                        className="h-full hidden md:block"  style={color:white}>TubeHub
                        
                         
                     </h3>
                     <h3
-                        className="h-full md:hidden">TubeHub
+                        className="h-full md:hidden" style={color:white}>TubeHub
                        
                    < /h3>
                 </Link>

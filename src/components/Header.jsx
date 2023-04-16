@@ -7,8 +7,7 @@ import { IoIosSearch } from "react-icons/io";
 import { RiVideoAddLine } from "react-icons/ri";
 import { FiBell } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
-import ytLogo from "../image/yt-logo.png";
-import ytLogoMobile from "../image/yt-logo-mobile.png";
+
 
 import { Context } from "../contex/contaxApi";
 import Loader from "../shared/loader";
@@ -54,16 +53,15 @@ const Header = () => {
                     </div>
                 )}
                 <Link to="/" className="flex h-5 items-center">
-                    <img
-                        className="h-full hidden dark:md:block"
-                        src={ytLogo}
-                        alt="Youtube"
-                    />
-                    <img
-                        className="h-full md:hidden"
-                        src={ytLogoMobile}
-                        alt="Youtube"
-                    />
+                    <h3
+                        className="h-full hidden dark:md:block">TubeHub
+                       
+                        
+                    </h3>
+                    <h3
+                        className="h-full md:hidden">TubeHub
+                       
+                   < /h3>
                 </Link>
             </div>
             <div className="group flex items-center">
